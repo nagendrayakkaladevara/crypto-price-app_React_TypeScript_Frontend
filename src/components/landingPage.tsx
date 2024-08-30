@@ -59,6 +59,7 @@ const CryptoPrice: React.FC = () => {
 
     return (
         <div className="container mx-auto p-6">
+            <p className='flex justify-center text-white p-2 text-lg bungee-tint-regular'>CRYPTO PRICE APP</p>
             {coins.map(coin => {
                 const coinInfo = data[coin];
                 const price = coinInfo.usd;
