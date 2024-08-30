@@ -53,7 +53,7 @@ const CryptoPrice: React.FC = () => {
 
     console.log(ImageFunction('bitcoin'));
 
-    if (!data) return <div>Loading...</div>;
+    if (!data) return <div className='flex justify-center items-center h-screen'><span className="loader"></span></div>;
 
     const coins = Object.keys(data);
 
