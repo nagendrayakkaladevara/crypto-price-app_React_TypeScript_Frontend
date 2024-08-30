@@ -63,8 +63,8 @@ const CryptoPrice: React.FC = () => {
             {coins.map(coin => {
                 const coinInfo = data[coin];
                 const price = coinInfo.usd;
-                const changeNumber = coinInfo.usd_24h_change; // Original number value
-                const change = changeNumber.toFixed(5); // Convert to string for display
+                const changeNumber = coinInfo.usd_24h_change; 
+                const change = changeNumber.toFixed(5); 
 
                 return (
                     <div
